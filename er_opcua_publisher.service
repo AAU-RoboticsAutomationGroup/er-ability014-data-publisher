@@ -1,0 +1,18 @@
+[Unit]
+Description=OPC UA Server with MQTT Publishing
+After=network.target
+
+[Service]
+User=enabled
+WorkingDirectory=/home/enabled/repos/er_data_publisher
+Environment="PATH=/home/enabled/.pyenv/versions/3.8.18/bin:/home/enabled/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+Environment="PYTHONPATH=/home/enabled/.pyenv/versions/er_data_publisher/lib/python3.8/site-packages"
+ExecStart=/home/enabled/.pyenv/versions/er_data_publisher/bin/python /home/enabled/repos/er_data_publisher/opcua_server.py
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
