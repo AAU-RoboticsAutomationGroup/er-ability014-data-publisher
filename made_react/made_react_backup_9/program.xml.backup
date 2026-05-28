@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Archive>
+  <OPCUAWriteValue>
+            <Name>OPCUAWriteValue</Name>
+            <UID>)I=l3kVelcNle7,jrTt!</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <EndpointUrl>opc.tcp://172.20.66.174:4841/</EndpointUrl>
+            <NamespaceIndex>2</NamespaceIndex>
+            <NodeID>2</NodeID>
+            <Value>0</Value>
+            <Type>string</Type>
+  <Argument>
+            <Name>arg</Name>
+            <Type>string</Type>
+            <IsScalar>1</IsScalar>
+            <NumOfDims>1</NumOfDims>
+            <SizeOfDims>
+  <Dim1>1</Dim1>
+</SizeOfDims>
+            <ArrayLength>1</ArrayLength>
+            <Data>
+<Value1>0</Value1>
+</Data>
+            </Argument>
+            </OPCUAWriteValue>
+<Program>
+            <Name>
+            made_react_backup_9
+            </Name>
+            <Description>void</Description>
+            <UID>AHA(a~*;kI3q~KOnvL-a</UID>
+            <Instructions>
+            <CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>D!tQ%im{u_zn.#ta9#}*</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_FEl}v+=YQCMezDmDUtyT
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+<OPCUAWriteValue>
+            <Name>OPCUAWriteValue</Name>
+            <UID>XuKrkmDFh)w~8Q|@0_V-</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <EndpointUrl>opc.tcp://172.20.66.174:4841/</EndpointUrl>
+            <NamespaceIndex>2</NamespaceIndex>
+            <NodeID>2</NodeID>
+            <Value>2</Value>
+            <Type>string</Type>
+<Argument>
+            <Name>arg</Name>
+            <Type>string</Type>
+            <IsScalar>1</IsScalar>
+            <NumOfDims>1</NumOfDims>
+            <SizeOfDims>
+<Dim1>1</Dim1>
+</SizeOfDims>
+            <ArrayLength>1</ArrayLength>
+            <Data>
+<Value1>2</Value1>
+</Data>
+            </Argument>
+            </OPCUAWriteValue>
+<MiRMission>
+            <Name>MiRMission</Name>
+            <UID>w]w2r^:,cqSNY{tq16zK</UID>
+            <Version>1.0.0</Version>
+            <IsInitialized>1</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <DeviceName>MobileDevice</DeviceName>
+            <MissionUid>
+            58c7b5c4-13b7-11f1-9416-000129922d00
+            </MissionUid>
+            <IsBlocking>true</IsBlocking>
+            </MiRMission>
+<For>
+            <Name>ControlsRepeat</Name>
+            <UID>Hct_2LR2pSay*Z!rRjAL</UID>
+            <Version>2</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+            <Start>
+<ValueFixed>
+  <Name>ValueFixed</Name>
+  <Version>1.0.0</Version>
+  <Type>Int</Type>
+  <Value>0</Value>
+</ValueFixed>
+</Start>
+            <End>
+            <ValueFixed>
+<Name>ValueFixed</Name>
+<Version>1.0.0</Version>
+<Type>Double</Type>
+<Value>
+            15
+            </Value>
+</ValueFixed>
+            </End>
+            <Step>
+<ValueFixed>
+  <Name>ValueFixed</Name>
+  <Version>1.0.0</Version>
+  <Type>Int</Type>
+  <Value>1</Value>
+</ValueFixed>
+</Step>
+            <Instruction>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+            <Instructions>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+            <Instructions>
+            <CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>FwycA|p;GA#prl1(xOl;</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_j$Ft10)Yx+lDoYx#D)m7
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+            </Instructions>
+            </Sequence>
+            </Instructions>
+            </Sequence>
+            </Instruction>
+            </For>
+<CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>V{U?$Y|cEaa8eqg@Q}Ab</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_cN7=PG*r[GX]902N9qC:
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+            </Instructions>
+            <IncludeProgramFuncs>
+</IncludeProgramFuncs>
+            </Program>
+
+            <FunctionBlock>
+            <Name> get_carrier_value</Name>
+            <Description>void</Description>
+            <UID>made_react_backup_9_xco[R9HIyk0,Q{Fze7NT</UID>
+            <Body>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsInitialized>true</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Instructions>
+            <OPCUAReadValue>
+            <Name>OPCUAReadValue</Name>
+            <UID>pCWb-|~9w3Fvo4v^H[s5</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <EndpointUrl>opc.tcp://172.20.1.1:4840/</EndpointUrl>
+            <NamespaceIndex>2</NamespaceIndex>
+            <NodeID>|var|CECC-LK.Application.FBs.stpStopper1.stpStopper.cpfssStopper.xCarrierAvailable</NodeID>
+            <Variable>
+            <Name>xCarrierAvailable</Name>
+            <Version>1.0.0</Version>
+            </Variable>
+            </OPCUAReadValue>
+            </Instructions>
+            </Sequence>
+            </Body>
+            </FunctionBlock>
+
+
+            <FunctionBlock>
+            <Name>go_to_charging</Name>
+            <Description>void</Description>
+            <UID>made_react_backup_9_cN7=PG*r[GX]902N9qC:</UID>
+            <Body>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsInitialized>true</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Instructions>
+            <If>
+            <Name>If</Name>
+            <UID>0</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+<Condition>
+            <Type>Compare</Type>
+            <Operator>LTE</Operator>
+            <LHS>
+<BatteryPowerPercentage>
+  <Name>BatteryPowerPercentage</Name>
+  <Version>1.0.0</Version>
+            <DeviceName>MobileDevice</DeviceName>
+</BatteryPowerPercentage>
+</LHS>
+            <RHS>
+<ValueFixed>
+  <Name>ValueFixed</Name>
+  <Version>1.0.0</Version>
+  <Type>Double</Type>
+  <Value>
+            20
+            </Value>
+</ValueFixed>
+</RHS>
+            </Condition>
+            <IfBody>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+            <Instructions>
+            <OPCUAWriteValue>
+            <Name>OPCUAWriteValue</Name>
+            <UID>]XP^!$Lo}Ff-oSQ|9a!H</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <EndpointUrl>opc.tcp://172.20.66.174:4841/</EndpointUrl>
+            <NamespaceIndex>2</NamespaceIndex>
+            <NodeID>2</NodeID>
+            <Value>6</Value>
+            <Type>string</Type>
+<Argument>
+            <Name>arg</Name>
+            <Type>string</Type>
+            <IsScalar>1</IsScalar>
+            <NumOfDims>1</NumOfDims>
+            <SizeOfDims>
+<Dim1>1</Dim1>
+</SizeOfDims>
+            <ArrayLength>1</ArrayLength>
+            <Data>
+<Value1>6</Value1>
+</Data>
+            </Argument>
+            </OPCUAWriteValue>
+<DriveToChargingStation>
+    <Name>DriveToChargingStation</Name>
+    <Version>1.0.0</Version>
+    <UID>s~2G%ISy%.T]?L_b8a_5</UID>
+<IsInitialized>1</IsInitialized>
+    <ChargingStationUid>
+    16be3b11-122a-11f1-90d9-000129922d00
+    </ChargingStationUid>
+    <MobileDevice>MobileDevice</MobileDevice>
+    <IsBlocking>true</IsBlocking>
+    </DriveToChargingStation>
+<WaitForCondition>
+            <Name>WaitForCondition</Name>
+            <UID>+yVSFW.1VzGZ|-Kz{j%O</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <Condition>
+            <Type>Compare</Type>
+            <Operator>GTE</Operator>
+            <LHS>
+<BatteryPowerPercentage>
+  <Name>BatteryPowerPercentage</Name>
+  <Version>1.0.0</Version>
+            <DeviceName>MobileDevice</DeviceName>
+</BatteryPowerPercentage>
+</LHS>
+            <RHS>
+<ValueFixed>
+  <Name>ValueFixed</Name>
+  <Version>1.0.0</Version>
+  <Type>Double</Type>
+  <Value>
+            80
+            </Value>
+</ValueFixed>
+</RHS>
+            </Condition>
+            </WaitForCondition>
+            </Instructions>
+            </Sequence>
+            </IfBody>
+</If>
+            </Instructions>
+            </Sequence>
+            </Body>
+            </FunctionBlock>
+
+<OPCUAWriteValue>
+            <Name>OPCUAWriteValue</Name>
+            <UID>~F0hq;h^qCSE*]x8Z,l9</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <EndpointUrl>opc.tcp://172.20.8.1:4840</EndpointUrl>
+            <NamespaceIndex>2</NamespaceIndex>
+            <NodeID>|var|CECC-LK.Application.toCDPX.xAuto</NodeID>
+            <Value>false</Value>
+            <Type>bool</Type>
+<Argument>
+            <Name>arg</Name>
+            <Type>bool</Type>
+            <IsScalar>1</IsScalar>
+            <NumOfDims>1</NumOfDims>
+            <SizeOfDims>
+<Dim1>1</Dim1>
+</SizeOfDims>
+            <ArrayLength>1</ArrayLength>
+            <Data>
+<Value1>false</Value1>
+</Data>
+            </Argument>
+            </OPCUAWriteValue>
+<OPCUAReadValue>
+            <Name>OPCUAReadValue</Name>
+            <UID>dG$eBd!hxnw!M[]0K|C*</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <EndpointUrl>opc.tcp://192.168.12.253:4840</EndpointUrl>
+            <NamespaceIndex>2</NamespaceIndex>
+            <NodeID>2</NodeID>
+            <Variable>
+            <Name>xCarrierAvailable</Name>
+            <Version>1.0.0</Version>
+            </Variable>
+            </OPCUAReadValue>
+
+            <FunctionBlock>
+            <Name>ur_pick</Name>
+            <Description>void</Description>
+            <UID>made_react_backup_9_S^gDn*bRgoRlLx#CJ3l}</UID>
+            <Body>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsInitialized>true</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Instructions>
+            <CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>%0U_*qE+1QxXAxlER]Qe</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_V[NQWb#MWa!xu.n,0Ipb
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+<CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>EU/]!@t*XD:@zJ{P)YV(</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_%CVcR4Xagh9ucm@J}Yh5
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+            </Instructions>
+            </Sequence>
+            </Body>
+            </FunctionBlock>
+
+
+            <FunctionBlock>
+            <Name>pick_phones</Name>
+            <Description>void</Description>
+            <UID>made_react_backup_9_j$Ft10)Yx+lDoYx#D)m7</UID>
+            <Body>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsInitialized>true</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Instructions>
+            <OPCUAWriteValue>
+            <Name>OPCUAWriteValue</Name>
+            <UID>uY6HPg7xYtpU)m)s[aNy</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <EndpointUrl>opc.tcp://172.20.66.174:4841/</EndpointUrl>
+            <NamespaceIndex>2</NamespaceIndex>
+            <NodeID>2</NodeID>
+            <Value>3</Value>
+            <Type>string</Type>
+<Argument>
+            <Name>arg</Name>
+            <Type>string</Type>
+            <IsScalar>1</IsScalar>
+            <NumOfDims>1</NumOfDims>
+            <SizeOfDims>
+<Dim1>1</Dim1>
+</SizeOfDims>
+            <ArrayLength>1</ArrayLength>
+            <Data>
+<Value1>3</Value1>
+</Data>
+            </Argument>
+            </OPCUAWriteValue>
+<For>
+            <Name>ControlsRepeat</Name>
+            <UID>kBmGKfa8S,L_j-qKipGr</UID>
+            <Version>2</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+            <Start>
+<ValueFixed>
+  <Name>ValueFixed</Name>
+  <Version>1.0.0</Version>
+  <Type>Int</Type>
+  <Value>0</Value>
+</ValueFixed>
+</Start>
+            <End>
+            <ValueFixed>
+<Name>ValueFixed</Name>
+<Version>1.0.0</Version>
+<Type>Double</Type>
+<Value>
+            3
+            </Value>
+</ValueFixed>
+            </End>
+            <Step>
+<ValueFixed>
+  <Name>ValueFixed</Name>
+  <Version>1.0.0</Version>
+  <Type>Int</Type>
+  <Value>1</Value>
+</ValueFixed>
+</Step>
+            <Instruction>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+            <Instructions>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+            <Instructions>
+            <CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>:C_^LYB_(M0OvaTqj?QE</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_xco[R9HIyk0,Q{Fze7NT
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+<If>
+            <Name>If</Name>
+            <UID>0</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+<Condition>
+            <Type>Compare</Type>
+            <Operator>EQ</Operator>
+            <LHS>
+<Variable>
+            <Name>xCarrierAvailable</Name>
+            <Version>1.0.0</Version>
+            </Variable>
+</LHS>
+            <RHS>
+<ValueFixed>
+  <Name>ValueFixed</Name>
+            <Version>1.0.0</Version>
+  <Type>Bool</Type>
+            <Value>true</Value>
+</ValueFixed>
+</RHS>
+            </Condition>
+            <IfBody>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+            <Instructions>
+            <CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>=EinEuPRT`ehtbmb4Vy3</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_S^gDn*bRgoRlLx#CJ3l}
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+<CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>Yy/.Of5-GEF2wvD3Embq</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_K8%`_:eF0q3vCQn(o@`5
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+            </Instructions>
+            </Sequence>
+            </IfBody>
+</If>
+<Wait>
+            <Name>Wait</Name>
+            <UID>6`a)tJw0gO$iD_wq*0jt</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <Time>
+            <ValueFixed>
+<Name>ValueFixed</Name>
+<Version>1.0.0</Version>
+<Type>Double</Type>
+<Value>
+            10000
+            </Value>
+</ValueFixed>
+            </Time>
+            </Wait>
+            </Instructions>
+            </Sequence>
+            </Instructions>
+            </Sequence>
+            </Instruction>
+            </For>
+<CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>i|ChV:CQ7)viH%|jjr|*</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_E9N;8Wq@)3QZ4d9M`,A_
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+            </Instructions>
+            </Sequence>
+            </Body>
+            </FunctionBlock>
+
+
+            <FunctionBlock>
+            <Name>ur_drop_phone</Name>
+            <Description>void</Description>
+            <UID>made_react_backup_9_%CVcR4Xagh9ucm@J}Yh5</UID>
+            <Body>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsInitialized>true</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Instructions>
+            <MovePTP>
+            <Name>MovePTP</Name>
+            <UID>_X:[m4W*f9n73bARSef`</UID>
+            <Version>0.1.0</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Manipulator>Manipulator</Manipulator>
+            <Tool>
+            Manip.Flange
+            </Tool>
+            <Waypoints>
+            <Waypoint>
+            <Name>over_phone_2</Name>
+            <UID>GaN`R4WgHzAsX^Q5p.6^</UID>
+            <PoseReference>Base</PoseReference>
+            <Parameter>
+<ValueFixed>
+                <Name>Q</Name>
+                <Version>1.0.0</Version>
+                <Type>Q</Type>
+                <IsInitialized>1</IsInitialized>
+                    <Value>
+                    6.110350608825684 -1.1109493414508265 0.9722747802734375 -1.4562733809100552 -1.5790303389178675 1.3168184757232666
+                    </Value>
+                </ValueFixed>
+</Parameter>
+            <UseLocalSettings>1</UseLocalSettings>
+            <Velocity>1</Velocity>
+            <Acceleration>1</Acceleration>
+            <Blend>0</Blend>
+            </Waypoint>
+<Waypoint>
+            <Name>half_to_platform</Name>
+            <UID>{~0lriNgfJS7UDM~.I-G</UID>
+            <PoseReference>Base</PoseReference>
+            <Parameter>
+<ValueFixed>
+                <Name>Q</Name>
+                <Version>1.0.0</Version>
+                <Type>Q</Type>
+                <IsInitialized>1</IsInitialized>
+                    <Value>
+                    5.440206527709961 -1.9591277281390589 1.94291353225708 -1.5465720335589808 -1.5466969648944302 -0.9047153631793421
+                    </Value>
+                </ValueFixed>
+</Parameter>
+            <UseLocalSettings>0</UseLocalSettings>
+            <Velocity>1</Velocity>
+            <Acceleration>1</Acceleration>
+            <Blend>0</Blend>
+            </Waypoint>
+<Waypoint>
+            <Name>hover_2</Name>
+            <UID>cA?U}l.7Yh8dEY^NN*.O</UID>
+            <PoseReference>Base</PoseReference>
+            <Parameter>
+<ValueFixed>
+                <Name>Q</Name>
+                <Version>1.0.0</Version>
+                <Type>Q</Type>
+                <IsInitialized>1</IsInitialized>
+                    <Value>
+                    4.467663288116455 -2.204181496297018 2.173851490020752 -1.580219570790426 -1.56152850786318 -1.8781612555133265
+                    </Value>
+                </ValueFixed>
+</Parameter>
+            <UseLocalSettings>0</UseLocalSettings>
+            <Velocity>1</Velocity>
+            <Acceleration>1</Acceleration>
+            <Blend>0</Blend>
+            </Waypoint>
+<Waypoint>
+            <Name>phone_drop_off</Name>
+            <UID>dYoa7LqZEPRM0R]Tl2h=</UID>
+            <PoseReference>Base</PoseReference>
+            <Parameter>
+<ValueFixed>
+                <Name>Q</Name>
+                <Version>1.0.0</Version>
+                <Type>Q</Type>
+                <IsInitialized>1</IsInitialized>
+                    <Value>
+                    3.1134660243988037 -1.3468940893756312 1.742687225341797 -1.9698970953570767 -1.5344985167132779 -1.6572364012347622
+                    </Value>
+                </ValueFixed>
+</Parameter>
+            <UseLocalSettings>0</UseLocalSettings>
+            <Velocity>1</Velocity>
+            <Acceleration>1</Acceleration>
+            <Blend>0</Blend>
+            </Waypoint>
+            </Waypoints>
+            <Blend>
+            0.1
+            </Blend>
+<Velocity>
+            1
+            </Velocity>
+<Acceleration>
+            1
+            </Acceleration>
+            </MovePTP>
+<CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>DX@QE,E!$jZ.d$,^?)+v</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_9Rqc*[5ZJHVh**)u9TUO
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+<CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>/M?O(RFIJ%LV]5ay!Zp%</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_4J^?.]164IE`=6}JaDw1
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+<MovePTP>
+            <Name>MovePTP</Name>
+            <UID>JHnP64tSQ#IqLi`m`wqJ</UID>
+            <Version>0.1.0</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Manipulator>Manipulator</Manipulator>
+            <Tool>
+            Manip.Flange
+            </Tool>
+            <Waypoints>
+            <Waypoint>
+            <Name>hover_away_from_container</Name>
+            <UID>K..8sD)d;~#jisMFv,;D</UID>
+            <PoseReference>Base</PoseReference>
+            <Parameter>
+<ValueFixed>
+                <Name>Q</Name>
+                <Version>1.0.0</Version>
+                <Type>Q</Type>
+                <IsInitialized>1</IsInitialized>
+                    <Value>
+                    3.2531285285949707 -1.65839130083193 2.0943899154663086 -2.0537989775287073 -1.523773495350973 -3.0621371904956263
+                    </Value>
+                </ValueFixed>
+</Parameter>
+            <UseLocalSettings>0</UseLocalSettings>
+            <Velocity>1</Velocity>
+            <Acceleration>1</Acceleration>
+            <Blend>0</Blend>
+            </Waypoint>
+            </Waypoints>
+            <Blend>
+            0
+            </Blend>
+<Velocity>
+            1
+            </Velocity>
+<Acceleration>
+            1
+            </Acceleration>
+            </MovePTP>
+            </Instructions>
+            </Sequence>
+            </Body>
+            </FunctionBlock>
+
+
+            <FunctionBlock>
+            <Name>release_pallet</Name>
+            <Description>void</Description>
+            <UID>made_react_backup_9_K8%`_:eF0q3vCQn(o@`5</UID>
+            <Body>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsInitialized>true</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Instructions>
+            <OPCUAWriteValue>
+            <Name>OPCUAWriteValue</Name>
+            <UID>RvTN~Gp.5Gck6rJGaG8t</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <EndpointUrl>opc.tcp://172.20.1.1:4840/</EndpointUrl>
+            <NamespaceIndex>2</NamespaceIndex>
+            <NodeID>|var|CECC-LK.Application.fromCDPX.stManualWorkplace.xManualJobStarted</NodeID>
+            <Value>true</Value>
+            <Type>bool</Type>
+<Argument>
+            <Name>arg</Name>
+            <Type>bool</Type>
+            <IsScalar>1</IsScalar>
+            <NumOfDims>1</NumOfDims>
+            <SizeOfDims>
+<Dim1>1</Dim1>
+</SizeOfDims>
+            <ArrayLength>1</ArrayLength>
+            <Data>
+<Value1>true</Value1>
+</Data>
+            </Argument>
+            </OPCUAWriteValue>
+<OPCUAWriteValue>
+            <Name>OPCUAWriteValue</Name>
+            <UID>IU{,kQ8l_0%k~qJ(zV.*</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <EndpointUrl>opc.tcp://172.20.1.1:4840/</EndpointUrl>
+            <NamespaceIndex>2</NamespaceIndex>
+            <NodeID>|var|CECC-LK.Application.fromCDPX.stManualWorkplace.xManualJobFinished</NodeID>
+            <Value>true</Value>
+            <Type>bool</Type>
+<Argument>
+            <Name>arg</Name>
+            <Type>bool</Type>
+            <IsScalar>1</IsScalar>
+            <NumOfDims>1</NumOfDims>
+            <SizeOfDims>
+<Dim1>1</Dim1>
+</SizeOfDims>
+            <ArrayLength>1</ArrayLength>
+            <Data>
+<Value1>true</Value1>
+</Data>
+            </Argument>
+            </OPCUAWriteValue>
+            </Instructions>
+            </Sequence>
+            </Body>
+            </FunctionBlock>
+
+
+            <FunctionBlock>
+            <Name>close_gripper</Name>
+            <Description>void</Description>
+            <UID>made_react_backup_9_4J^?.]164IE`=6}JaDw1</UID>
+            <Body>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsInitialized>true</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Instructions>
+            <URAction>
+            <Name>
+            CloseGripper
+            </Name>
+            <UID>+]5{y6nnrGqW*nB[J)0t</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <Action>
+            CloseGripper
+            </Action>
+            <Parameters>
+
+            </Parameters>
+            </URAction>
+            </Instructions>
+            </Sequence>
+            </Body>
+            </FunctionBlock>
+
+
+            <FunctionBlock>
+            <Name>ur_pick_phone</Name>
+            <Description>void</Description>
+            <UID>made_react_backup_9_V[NQWb#MWa!xu.n,0Ipb</UID>
+            <Body>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsInitialized>true</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Instructions>
+            <MovePTP>
+            <Name>MovePTP</Name>
+            <UID>wCRvRulh9kexIB{0,;*#</UID>
+            <Version>0.1.0</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Manipulator>Manipulator</Manipulator>
+            <Tool>
+            Manip.Flange
+            </Tool>
+            <Waypoints>
+            <Waypoint>
+            <Name>hover</Name>
+            <UID>O@pvv`+,k_Ycr!{ea]VV</UID>
+            <PoseReference>Base</PoseReference>
+            <Parameter>
+<ValueFixed>
+                <Name>Q</Name>
+                <Version>1.0.0</Version>
+                <Type>Q</Type>
+                <IsInitialized>1</IsInitialized>
+                    <Value>
+                    4.467663288116455 -2.204181496297018 2.173851490020752 -1.580219570790426 -1.56152850786318 -1.8781612555133265
+                    </Value>
+                </ValueFixed>
+</Parameter>
+            <UseLocalSettings>0</UseLocalSettings>
+            <Velocity>1</Velocity>
+            <Acceleration>1</Acceleration>
+            <Blend>0.5</Blend>
+            </Waypoint>
+<Waypoint>
+            <Name>half_to_phone</Name>
+            <UID>mb.KQH}XD}M9N`]}Lijy</UID>
+            <PoseReference>Base</PoseReference>
+            <Parameter>
+<ValueFixed>
+                <Name>Q</Name>
+                <Version>1.0.0</Version>
+                <Type>Q</Type>
+                <IsInitialized>1</IsInitialized>
+                    <Value>
+                    5.440206527709961 -1.9591277281390589 1.94291353225708 -1.5465720335589808 -1.5466969648944302 -0.9047153631793421
+                    </Value>
+                </ValueFixed>
+</Parameter>
+            <UseLocalSettings>0</UseLocalSettings>
+            <Velocity>1</Velocity>
+            <Acceleration>1</Acceleration>
+            <Blend>0</Blend>
+            </Waypoint>
+<Waypoint>
+            <Name>over_phone</Name>
+            <UID>!}=zizl],?aL]z(WvZf,</UID>
+            <PoseReference>Base</PoseReference>
+            <Parameter>
+<ValueFixed>
+                <Name>Q</Name>
+                <Version>1.0.0</Version>
+                <Type>Q</Type>
+                <IsInitialized>1</IsInitialized>
+                    <Value>
+                    6.110278606414795 -1.099929157887594 0.8986530303955078 -1.39365798631777 -1.5790179411517542 1.3167225122451784
+                    </Value>
+                </ValueFixed>
+</Parameter>
+            <UseLocalSettings>1</UseLocalSettings>
+            <Velocity>1</Velocity>
+            <Acceleration>1</Acceleration>
+            <Blend>0</Blend>
+            </Waypoint>
+            </Waypoints>
+            <Blend>
+            0.1
+            </Blend>
+<Velocity>
+            1
+            </Velocity>
+<Acceleration>
+            1
+            </Acceleration>
+            </MovePTP>
+<CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>EH[3Dy($)uN50d#?ndB[</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_9Rqc*[5ZJHVh**)u9TUO
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+<MovePTP>
+            <Name>MovePTP</Name>
+            <UID>X@2vSKjYLDvb1wNKJv?l</UID>
+            <Version>0.1.0</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Manipulator>Manipulator</Manipulator>
+            <Tool>
+            Manip.Flange
+            </Tool>
+            <Waypoints>
+            <Waypoint>
+            <Name>on_phone</Name>
+            <UID>2P%fPX-~*8jR*9E$o5CZ</UID>
+            <PoseReference>Base</PoseReference>
+            <Parameter>
+<ValueFixed>
+                <Name>Q</Name>
+                <Version>1.0.0</Version>
+                <Type>Q</Type>
+                <IsInitialized>1</IsInitialized>
+                    <Value>
+                    6.110302448272705 -1.1177895704852503 1.0400605201721191 -1.517930332814352 -1.5792339483844202 1.3168303966522217
+                    </Value>
+                </ValueFixed>
+</Parameter>
+            <UseLocalSettings>1</UseLocalSettings>
+            <Velocity>0.1</Velocity>
+            <Acceleration>0.1</Acceleration>
+            <Blend>0</Blend>
+            </Waypoint>
+            </Waypoints>
+            <Blend>
+            0
+            </Blend>
+<Velocity>
+            1
+            </Velocity>
+<Acceleration>
+            1
+            </Acceleration>
+            </MovePTP>
+<CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>a+)OhLs*ZS1`d-qT;n#d</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_4J^?.]164IE`=6}JaDw1
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+            </Instructions>
+            </Sequence>
+            </Body>
+            </FunctionBlock>
+
+
+            <FunctionBlock>
+            <Name>open_gripper</Name>
+            <Description>void</Description>
+            <UID>made_react_backup_9_9Rqc*[5ZJHVh**)u9TUO</UID>
+            <Body>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsInitialized>true</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Instructions>
+            <URAction>
+            <Name>
+            OpenGripper
+            </Name>
+            <UID>oR{Nr/neu@[=fd_1#/MY</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <Action>
+            OpenGripper
+            </Action>
+            <Parameters>
+
+            </Parameters>
+            </URAction>
+            </Instructions>
+            </Sequence>
+            </Body>
+            </FunctionBlock>
+
+
+            <FunctionBlock>
+            <Name> idle_at_charging</Name>
+            <Description>void</Description>
+            <UID>made_react_backup_9_FEl}v+=YQCMezDmDUtyT</UID>
+            <Body>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsInitialized>true</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Instructions>
+            <CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>m/r_d36wqyVevR0dt,(B</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_xco[R9HIyk0,Q{Fze7NT
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+<While>
+            <Name>WhileLoop</Name>
+            <UID>)8yD=6#O69x`czUwBL+w</UID>
+            <Version>0.1.0</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+            <Condition>
+            <Type>Compare</Type>
+            <Operator>NEQ</Operator>
+            <LHS>
+<Variable>
+            <Name>xCarrierAvailable</Name>
+            <Version>1.0.0</Version>
+            </Variable>
+</LHS>
+            <RHS>
+<ValueFixed>
+  <Name>ValueFixed</Name>
+            <Version>1.0.0</Version>
+  <Type>Bool</Type>
+            <Value>true</Value>
+</ValueFixed>
+</RHS>
+            </Condition>
+            <Body>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+            <Instructions>
+            <OPCUAWriteValue>
+            <Name>OPCUAWriteValue</Name>
+            <UID>6h|W(R_-1cVG%bk*5mvP</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <EndpointUrl>opc.tcp://172.20.66.174:4841/</EndpointUrl>
+            <NamespaceIndex>2</NamespaceIndex>
+            <NodeID>2</NodeID>
+            <Value>0</Value>
+            <Type>string</Type>
+<Argument>
+            <Name>arg</Name>
+            <Type>string</Type>
+            <IsScalar>1</IsScalar>
+            <NumOfDims>1</NumOfDims>
+            <SizeOfDims>
+<Dim1>1</Dim1>
+</SizeOfDims>
+            <ArrayLength>1</ArrayLength>
+            <Data>
+<Value1>0</Value1>
+</Data>
+            </Argument>
+            </OPCUAWriteValue>
+            </Instructions>
+            </Sequence>
+            </Body>
+            </While>
+            </Instructions>
+            </Sequence>
+            </Body>
+            </FunctionBlock>
+
+
+            <FunctionBlock>
+            <Name>idle_at_pickup</Name>
+            <Description>void</Description>
+            <UID>made_react_backup_9_$M[o/n/}|MJC8;`H~f(O</UID>
+            <Body>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsInitialized>true</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Instructions>
+            <CallFunctionBlock>
+            <Name>CallFunctionBlock</Name>
+            <UID>WW@KRDj6~Sf45x@SElT_</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <FunctionBlockName>
+            made_react_backup_9_xco[R9HIyk0,Q{Fze7NT
+            </FunctionBlockName>
+
+            </CallFunctionBlock>
+<While>
+            <Name>WhileLoop</Name>
+            <UID>KVt-3}b]?!E=_FRPF;OJ</UID>
+            <Version>0.1.0</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+            <Condition>
+            <Type>Compare</Type>
+            <Operator>NEQ</Operator>
+            <LHS>
+<Variable>
+            <Name>xCarrierAvailable</Name>
+            <Version>1.0.0</Version>
+            </Variable>
+</LHS>
+            <RHS>
+<ValueFixed>
+  <Name>ValueFixed</Name>
+            <Version>1.0.0</Version>
+  <Type>Bool</Type>
+            <Value>true</Value>
+</ValueFixed>
+</RHS>
+            </Condition>
+            <Body>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsBlocking>true</IsBlocking>
+            <IsInitialized>1</IsInitialized>
+            <Instructions>
+            <OPCUAWriteValue>
+            <Name>OPCUAWriteValue</Name>
+            <UID>NI(;Jg2kTW}%@qjv./:i</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <EndpointUrl>opc.tcp://172.20.66.174:4841/</EndpointUrl>
+            <NamespaceIndex>2</NamespaceIndex>
+            <NodeID>2</NodeID>
+            <Value>1</Value>
+            <Type>string</Type>
+<Argument>
+            <Name>arg</Name>
+            <Type>string</Type>
+            <IsScalar>1</IsScalar>
+            <NumOfDims>1</NumOfDims>
+            <SizeOfDims>
+<Dim1>1</Dim1>
+</SizeOfDims>
+            <ArrayLength>1</ArrayLength>
+            <Data>
+<Value1>1</Value1>
+</Data>
+            </Argument>
+            </OPCUAWriteValue>
+            </Instructions>
+            </Sequence>
+            </Body>
+            </While>
+            </Instructions>
+            </Sequence>
+            </Body>
+            </FunctionBlock>
+
+
+            <FunctionBlock>
+            <Name>deliver_phones</Name>
+            <Description>void</Description>
+            <UID>made_react_backup_9_E9N;8Wq@)3QZ4d9M`,A_</UID>
+            <Body>
+            <Sequence>
+            <Name>Sequence</Name>
+            <Version>0.1.0</Version>
+            <IsInitialized>true</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <Instructions>
+            <OPCUAWriteValue>
+            <Name>OPCUAWriteValue</Name>
+            <UID>~c`z?Pm{K`VbPr;8F$1#</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <EndpointUrl>opc.tcp://172.20.66.174:4841/</EndpointUrl>
+            <NamespaceIndex>2</NamespaceIndex>
+            <NodeID>2</NodeID>
+            <Value>4</Value>
+            <Type>string</Type>
+<Argument>
+            <Name>arg</Name>
+            <Type>string</Type>
+            <IsScalar>1</IsScalar>
+            <NumOfDims>1</NumOfDims>
+            <SizeOfDims>
+<Dim1>1</Dim1>
+</SizeOfDims>
+            <ArrayLength>1</ArrayLength>
+            <Data>
+<Value1>4</Value1>
+</Data>
+            </Argument>
+            </OPCUAWriteValue>
+<MiRMission>
+            <Name>MiRMission</Name>
+            <UID>iX!I+hq~2qvNLn}xkrkb</UID>
+            <Version>1.0.0</Version>
+            <IsInitialized>1</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <DeviceName>MobileDevice</DeviceName>
+            <MissionUid>
+            4e6b8cee-13e1-11f1-ae70-000129922d00
+            </MissionUid>
+            <IsBlocking>true</IsBlocking>
+            </MiRMission>
+<OPCUAWriteValue>
+            <Name>OPCUAWriteValue</Name>
+            <UID>qw~g{GrNadQVmNk]ds+O</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <EndpointUrl>opc.tcp://172.20.66.174:4841/</EndpointUrl>
+            <NamespaceIndex>2</NamespaceIndex>
+            <NodeID>2</NodeID>
+            <Value>5</Value>
+            <Type>string</Type>
+<Argument>
+            <Name>arg</Name>
+            <Type>string</Type>
+            <IsScalar>1</IsScalar>
+            <NumOfDims>1</NumOfDims>
+            <SizeOfDims>
+<Dim1>1</Dim1>
+</SizeOfDims>
+            <ArrayLength>1</ArrayLength>
+            <Data>
+<Value1>5</Value1>
+</Data>
+            </Argument>
+            </OPCUAWriteValue>
+<Wait>
+            <Name>Wait</Name>
+            <UID>zHxOej|]`+qok=Kl*{6B</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <Time>
+            <ValueFixed>
+<Name>ValueFixed</Name>
+<Version>1.0.0</Version>
+<Type>Double</Type>
+<Value>
+            10000
+            </Value>
+</ValueFixed>
+            </Time>
+            </Wait>
+<OPCUAWriteValue>
+            <Name>OPCUAWriteValue</Name>
+            <UID>tvoFqIiLTJWlo,,_[@+n</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <EndpointUrl>opc.tcp://172.20.66.174:4841/</EndpointUrl>
+            <NamespaceIndex>2</NamespaceIndex>
+            <NodeID>2</NodeID>
+            <Value>2</Value>
+            <Type>string</Type>
+<Argument>
+            <Name>arg</Name>
+            <Type>string</Type>
+            <IsScalar>1</IsScalar>
+            <NumOfDims>1</NumOfDims>
+            <SizeOfDims>
+<Dim1>1</Dim1>
+</SizeOfDims>
+            <ArrayLength>1</ArrayLength>
+            <Data>
+<Value1>2</Value1>
+</Data>
+            </Argument>
+            </OPCUAWriteValue>
+<MiRMission>
+            <Name>MiRMission</Name>
+            <UID>TP/C/vD`kgTxB,f6Xkn_</UID>
+            <Version>1.0.0</Version>
+            <IsInitialized>1</IsInitialized>
+
+          <IsErrorFunctionActive>0</IsErrorFunctionActive>
+          <ErrorFunctionName>
+</ErrorFunctionName>
+          <ErrorFunctionUid>
+</ErrorFunctionUid>
+          <RetryAttempts>0</RetryAttempts>
+
+            <DeviceName>MobileDevice</DeviceName>
+            <MissionUid>
+            58c7b5c4-13b7-11f1-9416-000129922d00
+            </MissionUid>
+            <IsBlocking>true</IsBlocking>
+            </MiRMission>
+            </Instructions>
+            </Sequence>
+            </Body>
+            </FunctionBlock>
+
+<Wait>
+            <Name>Wait</Name>
+            <UID>?D_8+nYLzs~@/o:^o+s.</UID>
+            <Version>0.1.0</Version>
+            <IsInitialized>1</IsInitialized>
+            <Time>
+            <ValueFixed>
+<Name>ValueFixed</Name>
+<Version>1.0.0</Version>
+<Type>Double</Type>
+<Value>
+            1000
+            </Value>
+</ValueFixed>
+            </Time>
+            </Wait>
+</Archive>
